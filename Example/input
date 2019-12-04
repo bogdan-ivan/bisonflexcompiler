@@ -1,0 +1,36 @@
+//
+var prev = 0; //
+var next = 1;
+var fib;
+
+for (var n = 0; n < 20; n = n + 1) {
+    fib = prev;
+    prev = next;
+    next = prev + fib;
+}
+
+{
+}
+
+var x;
+var y;
+
+if(x==5)
+    if(y==6)
+        x=x+1;
+    else x=x-1;
+
+var acc = 0;
+
+while (acc < 3) {
+    acc = acc + 1;
+}
+
+var four = 4;
+var two = 2;
+var fourtwo = 0;
+for (var n = 0; n < 100; n = n + 1) {
+    if (n % four and n % two) {
+        fourtwo = fourtwo + 1;
+    }
+}
